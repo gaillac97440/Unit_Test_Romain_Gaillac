@@ -8,6 +8,6 @@
 
 Test(my_strndup, is_dup)
 {
-    char *i = my_strndup("s", 0);
+    char *i = my_strndup("so", 1);
     cr_assert_str_eq(i, "s");
 }

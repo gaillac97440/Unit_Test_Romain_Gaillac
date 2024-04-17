@@ -8,8 +8,6 @@
 
 Test(my_count_words, good_number)
 {
-    char *name = "romain";
-
-    my_count_words(name, name);
-    cr_assert_eq(name, 1);
+    int i = my_count_words("romain salut", " ");
+    cr_assert_eq(i, 1);
 }
